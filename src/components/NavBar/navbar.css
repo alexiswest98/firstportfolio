@@ -1,0 +1,27 @@
+.nav-bar-outer {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* background-color: brown; */
+    margin-left: 0px;
+}
+
+.nav-bar-outer::-webkit-scrollbar {
+    display: none;
+}
+
+.nav-bar-content {
+    color: white;
+    width: 35%;
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text-link {
+    text-decoration: none;
+    color: rgb(169, 174, 251);
+}

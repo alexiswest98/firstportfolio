@@ -1,0 +1,101 @@
+
+.about-me-info {
+    position: absolute;
+    z-index: 1000;
+    /* border: 1px solid rgb(255, 47, 47); */
+    height: 100vh;
+    width: 98vw;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid rgb(255, 186, 47); */
+    overflow-x: hidden;
+}
+
+.about-me-info-inner {
+    height: 80vh;
+    width: 55%;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-top: 6vh;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 0.3em;
+}
+
+.small-details-div {
+    display: flex;
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.bottom-about-div {
+    height: 40%;
+    width: 95%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 1.5%;
+    /* border: 1px solid pink; */
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0);
+    border-radius: 0.3em;
+}
+
+.bottom-about-div::-webkit-scrollbar {
+    display: none;
+}
+
+.profilepicture {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.3em 0 0 0;
+    /* box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */
+}
+
+.top-brief-name {
+    /* background-color: rgb(255, 0, 0); */
+    height: 100%;
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.3em;
+}
+
+.title-name, .title-name-below {
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+    text-align: center;
+}
+
+.title-name {
+    font-size: 2.5em;
+}
+
+.title-name-below {
+    color: rgb(189, 189, 189);
+}
+
+.bio-text {
+    font-size: 1em;
+    margin-block-start: 0.3em;
+    font-weight: 700;
+    color: rgb(189, 189, 189);
+}
+
+/* PORTFOLIO PREVIEWS */
+.portfolio-cards-outer {
+    width: 100vh;
+    height: 100vw;
+}
