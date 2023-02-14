@@ -2,7 +2,7 @@ import React, { useRef, useEffect, Profiler } from "react";
 import './aboutme.css'
 import prof from '../../images/prof.png'
 import NavBar from "../NavBar";
-import resume from "./resume.pdf"
+import resume from "./AlexisWestResume.pdf"
 
 export default function AboutMe() {
 
@@ -15,7 +15,7 @@ export default function AboutMe() {
                     <img src={prof} alt='profile picture' className="profilepicture"></img>
                     <div className="top-brief-name">
                         <div className="resume-container">
-                            <a className="res-butt" href={resume} download="resume.pdf">
+                            <a className="res-butt" href={resume} download="AlexisWestResume.pdf">
                             Download Resume</a>
                         </div>
                         <h1 className="title-name">Hello! My name is Alexis West,</h1>

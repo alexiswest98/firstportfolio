@@ -29,13 +29,13 @@
 
 .small-details-div {
     display: flex;
-    height: 60%;
+    height: 57%;
     width: 100%;
     /* border: 1px solid yellow; */
 }
 
 .bottom-about-div {
-    height: 40%;
+    height: 43%;
     width: 95%;
     padding-left: 2.5%;
     padding-right: 2.5%;
