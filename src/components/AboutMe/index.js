@@ -11,7 +11,7 @@ export default function AboutMe() {
     useEffect(() => {
         const timeout = setTimeout(() => {
           setShowFact(false);
-        }, 20000); // 20 seconds in milliseconds
+        }, 15000); // 15 seconds in milliseconds
     
         return () => clearTimeout(timeout);
       }, []);

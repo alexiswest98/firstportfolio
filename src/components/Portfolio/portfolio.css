@@ -21,9 +21,10 @@
 
 .port-outer {
     height: 90vh;
-    width: 90%;
+    width: 96%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -42,18 +43,23 @@
 }
 
 .proj-card {
-    width: 31%;
+    width: 33%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-decoration: none;
     align-items: center;
+    /* border: 2px solid red; */
 }
 
 .img-proj {
-    height: 50%;
-    width: 100%;
+    height: 61%;
+    width: 99%;
+}
+
+.proj-card:hover {
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.3);
 }
 
 .proj-text {
