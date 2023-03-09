@@ -13,7 +13,7 @@ export default function Portfolio() {
         <div className="portfolio-outer-div">
             <NavBar/>
             <div className="port-outer">
-                <h1 className="my-work-title">My work</h1>
+                <h1 className="my-work-title">My work 😊</h1>
                 <div className="portfolio-cards">
                     <a target="_blank" href='https://lexflix.onrender.com/' className='proj-card'>
                         <img src={lexflix} alt="preview image" className="img-proj"></img>
